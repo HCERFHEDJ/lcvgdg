@@ -1,0 +1,20 @@
+RandomPlacer:
+  limit:
+    x: 500
+    z: 500
+    nx: -500
+    nz: -500
+    positiveX: 500
+    positiveZ: 500
+    negativeX: -500
+    negativeZ: -500
+  world_the_end:
+    limit:
+      x: 300
+      z: 300
+      nx: -300
+      nz: -300
+  Teleported: "\u968f\u673a\u4f20\u9001\u5230 {x}, {z}"
+  cooldown: 5
+Error:
+  Cooldown: "\u4f60\u5fc5\u987b\u7b49\u5f85 ({cooldown} second{s} left)"

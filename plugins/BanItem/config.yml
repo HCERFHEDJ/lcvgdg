@@ -1,0 +1,114 @@
+# 配置文件版本,重要,请勿修改
+# 插件升级配置的时候需要用到
+version: '1.0'
+# 设置消息输出等级
+# INFO<WARN<SEVERE<DEBUG<DEVELOP
+LogLevel: SEVERE
+# 是否记录错误堆栈
+LogStackTrace: true
+# 插件大部分消息前缀
+MsgPrefix: §7[§aBanItem§7]§3
+# 是否开启服务器信息收集,只是用于插件使用情况统计
+# 收集的信息: 使用版本 服务器ID 服务器IP 服务器端口 服务器版本 Java版本 系统版本
+EnableMetrics: true
+# 是否启用线程安全检查
+# 当前的安全检查有[命令是否异步运行]
+IsThreadSafe: true
+# 权限节点配置
+Permission:
+  # 是否启用物品ID权限支持
+  # 未启用之前只有BanItem.bypass.use这样是最细的权限
+  # 启用之后可以更细分到BanItem.bypass.use.54的权限
+  CheckItemId: false
+  # 是否启用物品子ID权限支持,必须先启用CheckItemId
+  # 启用之后可以更细分到BanItem.bypass.use.54@1的权限
+  CheckItemDamage: false
+# BanItem插件主配置
+BanItem:
+  # 是否从NBT中移除设置了没收的物品
+  RemoveItemFromNBT: false
+  # 是否在方块的NBT中搜索禁用物品(检查inv权限)
+  CheckBanItemInBlockNBT: true
+  # 当玩家登录的时候,检查登录的玩家背包里是否有禁用的物品(检查inv权限)
+  CheckInvWhenPlayerJoin: true
+  # 当玩家切换世界的时候,检查登录的玩家背包里是否有禁用的物品(检查inv权限)
+  CheckInvWhenChangeWorld: true
+  # 是否在玩家切换手中物品的时候检禁用物品(检查hold,inv权限)
+  CheckWhenPlayerSwitchItem: true
+  # 玩家登陆多少Ticks后检查背包
+  # 太小可能会在没收东西时造成客户端崩溃
+  CheckInvDelayTicks: 50
+  # 是否在玩家放置方块时检查方块周围是否是或者有包含禁用物品的方块(检查inv权限)
+  CheckBlockAroundWhenPlace: false
+  # 新增禁用物品时,默认的禁用理由
+  DefaultReason: 该物品已经被禁用
+  # 新增禁用物品时,没收选项的默认值
+  DefaultConfiscateOption: true
+  # 在进行方块检查时,不没收的地上方块,不支持子id
+  # 例如,ban了基岩,并且设置了没收
+  # 但是这样会导致在玩家右键基岩时,基岩方块会直接消失
+  # 所以只要把基岩方块的名字或者数字id添加到此处即可
+  BlocksNotSetToAir:
+  - BEDROCK
+# BanItem世界物品继承列表,格式和例子: 
+# InhertItemList:
+#   world:
+#     Inhert:
+#     # 继承自全局世界配置
+#     - /default/
+#     # 此处设置自定义物品列表,物品配置读取自BanItem\PreferItemList\***.yml下
+#     # 什么是自定义物品列表? 例如你把ic2 mod里ban掉的物品整理出来放到了ic2.yml中,那么换周目的时候,只要把ic2.yml放到PreferItemList\,这样新周目ic2的物品就不需要重新去ban了
+#     Prefer:
+#     - ic2
+#   # 你也可以为全局世界配置继承设置和自定义物品列表设置
+#   /default/:
+#     # 例如全局世界设置自定义列表thaumcraft的配置,那么继承了默认世界或者未配置继承设置的世界都会继承自定义列表thaumcraft的配置
+#     Prefer:
+#     - thaumcraft
+#   main:
+#     Inhert:
+#     - world
+# 只有在此配置中配置过的世界,命令中的w,world参数才能生效
+# 每个世界自己的列表在 BanItem\WorldItem\世界名 下
+InhertItemList: {}
+# 黑名单方块检查设置
+# 注意,黑名单方块的定义为禁止了所有权限的方块
+BlackBlockSetting:
+  # 是否启用黑名单方块的检查,设置为false就等于关闭此功能
+  EnableSearchOnChunkLoad: false
+  # 是否在区块卸载时中止对此区块的检查
+  # 最好启用该项,否则任务队列可能会无限长而导致各种隐藏的问题
+  StopCheckWhenChunkUnload: true
+  # 跳过检查的方块,用于加快检查速度
+  SkipBlocks:
+  - STONE
+  - GRASS
+  - DIRT
+  - COBBLESTONE
+  - WOOD
+  - SAPLING
+  - BEDROCK
+  - WATER
+  - STATIONARY_WATER
+  - LAVA
+  - STATIONARY_LAVA
+  - SAND
+  - GRAVEL
+  - GOLD_ORE
+  - IRON_ORE
+  - COAL_ORE
+  - LOG
+  - LEAVES
+  - SPONGE
+  - GLASS
+# 聊天窗口输出字体颜色设置
+# 此配置可以活用,其实这就是消息的前缀
+Color:
+  # 带功能的文字颜色
+  Link: §9
+  # 命令帮助字体颜色
+  Help: §2
+  # 命令类字体颜色
+  Command: §b
+  # 配置类字体颜色
+  CfgWord: §a

@@ -1,0 +1,147 @@
+[03-29 08:39:47]: [INFO] Created column 'regdate' and set the current timestamp, 1553819987076, to all 0 rows
+[03-29 08:39:47]: [INFO] SQLite Setup finished
+[03-29 08:39:47]: [INFO] Hooked into Vault!
+[03-29 08:39:47]: [INFO] Hooked successfully into Essentials
+[03-29 08:39:47]: [INFO] Essentials spawn file not found: 'C:\Users\Administrator\Downloads\CatServer-master\CatServer-master\plugins\Essentials\spawn.yml'
+[03-29 08:39:48]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[03-29 08:39:48]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[03-29 08:39:49]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-29 08:39:50]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[03-29 08:39:50]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[03-29 08:39:50]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-02 17:13:57]: [WARN] FlatFile backend has been detected and is now deprecated; it will be changed to SQLite... Connection will be impossible until conversion is done!
+[04-02 17:13:57]: [INFO] SQLite Setup finished
+[04-02 17:13:57]: [INFO] Database successfully converted from FILE to SQLITE
+[04-02 17:13:57]: [INFO] Hooked into Vault!
+[04-02 17:13:58]: [INFO] Hooked successfully into Essentials
+[04-02 17:13:58]: [INFO] Essentials spawn file not found: 'E:\ZHONG-s-n\Desktop\CatServer-master\plugins\Essentials\spawn.yml'
+[04-02 17:13:58]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-02 17:13:58]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-02 17:13:58]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-02 17:13:58]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-02 17:13:58]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-02 17:13:58]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-02 17:15:27]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-02 17:25:39]: [INFO] SQLite Setup finished
+[04-02 17:25:39]: [INFO] Hooked into Vault!
+[04-02 17:25:39]: [INFO] Hooked successfully into Essentials
+[04-02 17:25:39]: [INFO] Essentials spawn file not found: 'E:\ZHONG-s-n\Desktop\CatServer-master\plugins\Essentials\spawn.yml'
+[04-02 17:25:40]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-02 17:25:40]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-02 17:25:40]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-02 17:25:40]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-02 17:25:40]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-02 17:25:40]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-02 17:25:43]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-25 18:23:28]: [INFO] SQLite Setup finished
+[04-25 18:23:28]: [INFO] Hooked into Vault!
+[04-25 18:23:28]: [INFO] Hooked successfully into Essentials
+[04-25 18:23:28]: [INFO] Essentials spawn file not found: 'E:\MC\^桌面\CatServer-master\plugins\Essentials\spawn.yml'
+[04-25 18:23:29]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-25 18:23:29]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-25 18:23:29]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-25 18:23:29]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-25 18:23:29]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-25 18:23:29]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-25 18:24:00]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-25 21:28:45]: [INFO] SQLite Setup finished
+[04-25 21:28:45]: [INFO] Hooked into Vault!
+[04-25 21:28:45]: [INFO] Hooked successfully into Essentials
+[04-25 21:28:45]: [INFO] Essentials spawn file not found: 'E:\MC\^桌面\CatServer-master\plugins\Essentials\spawn.yml'
+[04-25 21:28:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-25 21:28:46]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-25 21:28:46]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-25 21:28:46]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-25 21:28:47]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-25 21:28:47]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-25 21:30:18]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-25 21:38:50]: [INFO] SQLite Setup finished
+[04-25 21:38:50]: [INFO] Hooked into Vault!
+[04-25 21:38:51]: [INFO] Hooked successfully into Essentials
+[04-25 21:38:51]: [INFO] Essentials spawn file not found: 'E:\MC\^桌面\CatServer-master\plugins\Essentials\spawn.yml'
+[04-25 21:38:51]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-25 21:38:51]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-25 21:38:51]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-25 21:38:52]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-25 21:38:52]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-25 21:42:37]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-25 21:43:49]: [INFO] SQLite Setup finished
+[04-25 21:43:49]: [INFO] Hooked into Vault!
+[04-25 21:43:50]: [INFO] Hooked successfully into Essentials
+[04-25 21:43:50]: [INFO] Essentials spawn file not found: 'E:\MC\^桌面\CatServer-master\plugins\Essentials\spawn.yml'
+[04-25 21:43:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[04-25 21:43:50]: java.io.FileNotFoundException: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:94)
+	at java.lang.Thread.run(Unknown Source)
+
+[04-25 21:43:50]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-25 21:43:50]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-25 21:43:50]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[04-25 21:44:21]: [INFO] AuthMe 5.4.0-b1877 disabled!

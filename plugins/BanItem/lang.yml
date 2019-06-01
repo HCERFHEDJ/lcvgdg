@@ -1,0 +1,35 @@
+WordInput: 输入
+MsgMissingLangNode: §c丢失语言节点 [%node%]
+MsgErrorHappendWhenReloadLang: §c在重载语言列表时发生了错误
+MsgLoadFileFail: §c载入%file%失败,目标文件以及配置未变动
+MsgErrorHappedWhenHandlerCmd: §c在处理命令时发生了错误
+MsgErrorArg: §c错误的参数
+MsgPluginReloaded: 已经重载插件
+MsgLackPermitDoThisCommand: §c你需要 §4§l%permission% §c的权限才能执行该命令
+MsgConsoleNotAllow: §c控制台不允许执行该命令
+MsgLangReloaded: 已经重载语言翻译
+WordWarn: 警告
+MsgAsyncCommandNotAllow: 不允许异步执行命令
+MsgUnInstanceManager: §c未实例化管理器类%class%
+MsgAllModelHasReadConfig: 所有模块已经读入配置
+MsgErrorArgsNumber: §c错误的参数数量
+MsgNoPermitDoThisCommand: §c没有权限执行该命令
+MsgUnknowChildCommand: §c未知的子命令
+WordError: 错误
+MsgGetHelp: 获取帮助
+MsgErrorHappendWhenReloadConfig: §c在重载插件时发生了错误
+MsgAtPosition: 在位置
+MsgConfigReloaded: 已经重载插件配置
+WordDebug: 调试
+MsgSaveFileFail: §c保存数据到%file%失败
+MsgUnknowCommand: §c未知的命令
+MsgSwitchDebugOnCfgToSeeErrorStack: §c配置文件启用调试来看到更多错误消息
+MsgErrorHappendPleaseContanctAdmin: §c插件发生了内部错误,请联系管理员
+HelpReloadPlugin: 重载整个插件
+HelpReloadConfig: 重载插件主配置
+HelpReloadLang: 重载插件语言翻译
+MsgThisItemIsBaned: §c该物品已被封禁
+MsgThisItemIsBanedUseFlag: §c该物品已被限制使用权限
+MsgThisBlockIsBaned: §c该方块已被封禁,禁止交互
+MsgYouShouldHoldItemInHand: §c你的手上应该拿着东西
+MsgAlreadyAddItemToBanList: 已经添加物品%item%到封禁列表
