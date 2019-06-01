@@ -1,0 +1,452 @@
+[21:43:25] [main/INFO] [LaunchWrapper]: Loading tweak class name catserver.server.launcher.CatServerTweaker
+[21:43:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name catserver.server.launcher.CatServerTweaker
+[21:43:25] [main/INFO] [LaunchWrapper]: Calling tweak class catserver.server.launcher.CatServerTweaker
+[21:43:26] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2815 for Minecraft 1.12.2 loading
+[21:43:26] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_181
+[21:43:26] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[21:43:26] [main/ERROR] [FML]: Full: E:\MC\^桌面\CatServer-master\libraries\maven-artifact-3.5.3.jar
+[21:43:26] [main/ERROR] [FML]: Trimmed: e:/mc/^桌面/catserver-master/
+[21:43:26] [main/INFO] [FML]: Searching E:\MC\^桌面\CatServer-master\.\mods for mods
+[21:43:26] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from [优化]BetterFps-1.4.8.jar
+[21:43:26] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [优化]foamfix-0.10.5-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:43:26] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:43:26] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [优化]Realtime-1.1.jar
+[21:43:26] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [前置]mixin-0.7.11.jar
+[21:43:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:26] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[21:43:26] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[21:43:26] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/E:/MC/%5E桌面/CatServer-master/./mods/%5B前置%5Dmixin-0.7.11.jar Service=LaunchWrapper Env=SERVER
+[21:43:26] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:43:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:43:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:28] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[21:43:28] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[21:43:28] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@273c947f
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:43:28] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:43:28] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:161]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:161]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[21:43:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[21:43:29] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:43:29] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[21:43:30] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[21:43:30] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[21:43:30] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[21:43:30] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[21:43:30] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[21:43:32] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
+[21:43:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:43:32] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2815 Initialized
+[21:43:32] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:43:32] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[21:43:33] [Server thread/WARN] [FML]: Enabling removal of erroring Entities - USE AT YOUR OWN RISK
+[21:43:33] [Server thread/WARN] [FML]: Enabling removal of erroring Tile Entities - USE AT YOUR OWN RISK
+[21:43:33] [Server thread/INFO] [FML]: Searching E:\MC\^桌面\CatServer-master\.\mods for mods
+[21:43:33] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[21:43:33] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:43:33] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
+[21:43:33] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, foamfix] at CLIENT
+[21:43:33] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, foamfix] at SERVER
+[21:43:33] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:43:33] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:43:33] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:43:33] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:43:33] [Server thread/INFO] []: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[21:43:33] [Server thread/INFO] []: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[21:43:33] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:43:33] [Server thread/INFO] []: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[21:43:33] [Server thread/INFO] []: minecraft:hopper
+[21:43:33] [Server thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[21:43:33] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:33] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:33] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:33] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:33] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:33] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:33] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:33] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:33] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:43:33] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:43:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:43:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:43:33] [Server thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[21:43:34] [Server thread/INFO] [Minecraft]: This server is running CatServer version git-1468a63-Community (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[21:43:34] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[21:43:34] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[21:43:34] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[21:43:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:43:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:43:34] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[21:43:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:43:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[21:43:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:43:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:43:35] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:35] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:35] [Server thread/INFO] [foamfix]: Deduplicated 99 property sets.
+[21:43:35] [Server thread/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
+[21:43:35] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:43:35] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:43:35] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[21:43:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command time with permission node net.minecraft.command.CommandTime
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command gamemode with permission node net.minecraft.command.CommandGameMode
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command difficulty with permission node net.minecraft.command.CommandDifficulty
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command defaultgamemode with permission node net.minecraft.command.CommandDefaultGameMode
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command kill with permission node net.minecraft.command.CommandKill
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command toggledownfall with permission node net.minecraft.command.CommandToggleDownfall
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command weather with permission node net.minecraft.command.CommandWeather
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command xp with permission node net.minecraft.command.CommandXP
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tp with permission node net.minecraft.command.CommandTP
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command teleport with permission node net.minecraft.command.server.CommandTeleport
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command give with permission node net.minecraft.command.CommandGive
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command replaceitem with permission node net.minecraft.command.CommandReplaceItem
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stats with permission node net.minecraft.command.CommandStats
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command effect with permission node net.minecraft.command.CommandEffect
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command enchant with permission node net.minecraft.command.CommandEnchant
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command particle with permission node net.minecraft.command.CommandParticle
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command me with permission node net.minecraft.command.server.CommandEmote
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command seed with permission node net.minecraft.command.CommandShowSeed
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command help with permission node net.minecraft.command.CommandHelp
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command debug with permission node net.minecraft.command.CommandDebug
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tell with permission node net.minecraft.command.server.CommandMessage
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command say with permission node net.minecraft.command.server.CommandBroadcast
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command spawnpoint with permission node net.minecraft.command.CommandSetSpawnpoint
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setworldspawn with permission node net.minecraft.command.server.CommandSetDefaultSpawnpoint
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command gamerule with permission node net.minecraft.command.CommandGameRule
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command clear with permission node net.minecraft.command.CommandClearInventory
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testfor with permission node net.minecraft.command.server.CommandTestFor
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command spreadplayers with permission node net.minecraft.command.CommandSpreadPlayers
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command playsound with permission node net.minecraft.command.CommandPlaySound
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command scoreboard with permission node net.minecraft.command.server.CommandScoreboard
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command execute with permission node net.minecraft.command.CommandExecuteAt
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command trigger with permission node net.minecraft.command.CommandTrigger
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command advancement with permission node net.minecraft.command.AdvancementCommand
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command recipe with permission node net.minecraft.command.RecipeCommand
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command summon with permission node net.minecraft.command.server.CommandSummon
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setblock with permission node net.minecraft.command.server.CommandSetBlock
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command fill with permission node net.minecraft.command.CommandFill
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command clone with permission node net.minecraft.command.CommandClone
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblocks with permission node net.minecraft.command.CommandCompare
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command blockdata with permission node net.minecraft.command.CommandBlockData
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command testforblock with permission node net.minecraft.command.server.CommandTestForBlock
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command tellraw with permission node net.minecraft.command.server.CommandMessageRaw
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command worldborder with permission node net.minecraft.command.CommandWorldBorder
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command title with permission node net.minecraft.command.CommandTitle
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command entitydata with permission node net.minecraft.command.CommandEntityData
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stopsound with permission node net.minecraft.command.CommandStopSound
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command locate with permission node net.minecraft.command.CommandLocate
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command reload with permission node net.minecraft.command.CommandReload
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command function with permission node net.minecraft.command.CommandFunction
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command op with permission node net.minecraft.command.server.CommandOp
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command deop with permission node net.minecraft.command.server.CommandDeOp
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command stop with permission node net.minecraft.command.server.CommandStop
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-all with permission node net.minecraft.command.server.CommandSaveAll
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-off with permission node net.minecraft.command.server.CommandSaveOff
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command save-on with permission node net.minecraft.command.server.CommandSaveOn
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command ban-ip with permission node net.minecraft.command.server.CommandBanIp
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon-ip with permission node net.minecraft.command.server.CommandPardonIp
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command ban with permission node net.minecraft.command.server.CommandBanPlayer
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command banlist with permission node net.minecraft.command.server.CommandListBans
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command pardon with permission node net.minecraft.command.server.CommandPardonPlayer
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command kick with permission node net.minecraft.command.CommandServerKick
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command list with permission node net.minecraft.command.server.CommandListPlayers
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command whitelist with permission node net.minecraft.command.server.CommandWhitelist
+[21:43:35] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command setidletimeout with permission node net.minecraft.command.CommandSetPlayerTimeout
+[21:43:35] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[21:43:35] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:35] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:43:36] [Server thread/WARN] [FML]: Offender: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[21:43:36] [Server thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:43:36] [Server thread/WARN] [FML]: Offender: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[21:43:36] [Server thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:43:36] [Server thread/WARN] [FML]: Offender: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[21:43:36] [Server thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:36] [Server thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:43:36] [Server thread/WARN] [FML]: Offender: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[21:43:36] [Server thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[21:43:36] [Server thread/WARN] [FML]: =============================================================
+[21:43:39] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[21:43:39] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[21:43:39] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager]: [GroupManager] Loading GroupManager v2.0.1-b332
+[21:43:39] [Server thread/INFO] [cc.bukkitPlugin.banitem.BanItem]: [BanItem] Loading BanItem v3.2.38
+[21:43:39] [Server thread/INFO] [pw.yumc.MiaoBoard.MiaoBoard]: [MiaoBoard] Loading MiaoBoard v2.4.1-git-1565c12dbc913d9376561a47636d109199bbaf20
+[21:43:39] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Loading Vault v1.5.6-b49
+[21:43:39] [Server thread/INFO] [luohuayu.AntiEMP.AntiEMP]: [AntiEMP] Loading AntiEMP v1.0.0
+[21:43:39] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[21:43:39] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.15.0.52
+[21:43:39] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect]: [EssentialsProtect] Loading EssentialsProtect v2.15.0.52
+[21:43:39] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Loading EssentialsChat v2.15.0.52
+[21:43:39] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.52
+[21:43:39] [Server thread/INFO] [com.bekvon.bukkit.residence.Residence]: [Residence] Loading Residence v4.8.4.4
+[21:43:39] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Loading AuthMe v5.4.0-b1877
+[21:43:39] [Server thread/INFO] [me.crafter.mc.lockettepro.LockettePro]: [LockettePro] Loading LockettePro v2.9.0
+[21:43:39] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabling Vault v1.5.6-b49
+[21:43:40] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:43:40] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] GroupManager found: Waiting
+[21:43:40] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:43:40] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Chat] GroupManager found: Waiting
+[21:43:40] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabled Version 1.5.6-b49
+[21:43:40] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[21:43:40] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Started structure compiler thread.
+[21:43:40] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
+[21:43:40] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[21:43:40] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[21:43:40] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[21:43:40] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[21:43:40] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[21:43:40] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:43:40] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:43:40] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:43:40] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[21:43:40] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[21:43:40] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:43:40] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[21:43:40] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[21:43:40] [Server thread/INFO] [Minecraft]: View Distance: 10
+[21:43:40] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[21:43:40] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:43:40] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:43:40] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@441d0137)
+[21:43:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[21:43:40] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
+[21:43:40] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[21:43:40] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[21:43:40] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[21:43:40] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[21:43:40] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[21:43:40] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[21:43:40] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:43:40] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:43:40] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:43:40] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[21:43:40] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[21:43:40] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:43:40] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[21:43:40] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[21:43:40] [Server thread/INFO] [Minecraft]: View Distance: 10
+[21:43:40] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[21:43:40] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:43:40] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:43:41] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@441d0137)
+[21:43:41] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
+[21:43:41] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[21:43:41] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[21:43:41] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[21:43:41] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[21:43:41] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[21:43:41] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[21:43:41] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:43:41] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:43:41] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:43:41] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[21:43:41] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[21:43:41] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:43:41] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[21:43:41] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[21:43:41] [Server thread/INFO] [Minecraft]: View Distance: 10
+[21:43:41] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[21:43:41] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:43:41] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:43:41] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@441d0137)
+[21:43:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed: 8791427648800061837)
+[21:43:41] [Server thread/INFO] []: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[21:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
+[21:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 1 (Seed: 8791427648800061837)
+[21:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 2 (Seed: 8791427648800061837)
+[21:43:43] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[21:43:44] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager]: WEPIF: Using the Bukkit Permissions API.
+[21:43:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[21:43:44] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.9.2
+[21:43:44] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:43:44] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered expansion: server
+[21:43:44] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered expansion: player
+[21:43:44] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[21:43:44] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager]: [GroupManager] Enabling GroupManager v2.0.1-b332
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'quickshop.use' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'quickshop.create.sell' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'quickshop.create.buy' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'quickshop.create.changeprice' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'quickshop.find' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'plotme.use' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'plotme.use.add' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/WARN] []: GroupManager - WARNING - Inherited group 'plotme.use.remove' not found for group Default. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[21:43:44] [Server thread/INFO] []: GroupManager - INFO - World Found: world
+[21:43:44] [Server thread/INFO] []: GroupManager - INFO - Superperms support enabled.
+[21:43:44] [Server thread/INFO] []: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[21:43:44] [Server thread/INFO] []: GroupManager - INFO - Backups will be retained for 24 hours!
+[21:43:44] [Server thread/INFO] []: GroupManager version 2.0.1-b332 is enabled!
+[21:43:44] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[21:43:44] [Server thread/INFO] [Minecraft]: [Vault][Permission] GroupManager hooked.
+[21:43:44] [Server thread/INFO] [Minecraft]: [Vault][Chat] GroupManager - Chat hooked.
+[21:43:44] [Server thread/INFO] [cc.bukkitPlugin.banitem.BanItem]: [BanItem] Enabling BanItem v3.2.38
+[21:43:45] [Server thread/INFO] []: [BanItem] 已经重载语言翻译
+[21:43:45] [Server thread/INFO] []: [BanItem] >是否启用物品ID权限: false
+[21:43:45] [Server thread/INFO] []: [BanItem] >是否启用物品子ID权限: false
+[21:43:45] [Server thread/INFO] []: [BanItem] >从NBT中移除要没收的物品: false
+[21:43:45] [Server thread/INFO] []: [BanItem] >在方块NBT中检查禁用物品: true
+[21:43:45] [Server thread/INFO] []: [BanItem] >玩家登陆时检查背包: true
+[21:43:45] [Server thread/INFO] []: [BanItem] >玩家切换世界时检查背包: true
+[21:43:45] [Server thread/INFO] []: [BanItem] >玩家切换物品时检查黑名单: true
+[21:43:45] [Server thread/INFO] []: [BanItem] >放置方块时检查周围方块: false
+[21:43:45] [Server thread/INFO] []: [BanItem] 已经重载插件配置
+[21:43:45] [Server thread/INFO] []: [BanItem] 共载入0个需要检查NBT的物品
+[21:43:45] [Server thread/INFO] []: [BanItem] 世界 全局 共载入 0 个禁用物品配置
+[21:43:45] [Server thread/INFO] []: [BanItem] 世界禁用列表 全局 最终禁用物品配置数量为 0 个
+[21:43:45] [Server thread/INFO] []: [BanItem] 已经重载插件
+[21:43:45] [Server thread/INFO] [pw.yumc.MiaoBoard.MiaoBoard]: [MiaoBoard] Enabling MiaoBoard v2.4.1-git-1565c12dbc913d9376561a47636d109199bbaf20
+[21:43:45] [Server thread/INFO] [luohuayu.AntiEMP.AntiEMP]: [AntiEMP] Enabling AntiEMP v1.0.0
+[21:43:45] [Server thread/INFO] []: 防御功能开启成功
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.15.0.52
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Starting Essentials ban format conversion
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Starting usermap repair
+[21:43:45] [Server thread/WARN] [com.earth2me.essentials.Essentials]: [Essentials] Missing userdata folder, aborting
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using Reflection based provider as spawn egg provider.
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[21:43:45] [Server thread/INFO] [Essentials]: Using locale zh
+[21:43:45] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[21:43:46] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:43:46] [Server thread/INFO] [Minecraft]: [Vault][Economy] Essentials Economy hooked.
+[21:43:46] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using Vault based permissions (GroupManager)
+[21:43:46] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect]: [EssentialsProtect] Enabling EssentialsProtect v2.15.0.52
+[21:43:46] [Server thread/INFO] [Minecraft]: Continuing to enable Protect.
+[21:43:46] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Enabling EssentialsChat v2.15.0.52
+[21:43:46] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.52
+[21:43:46] [Server thread/INFO] [com.bekvon.bukkit.residence.Residence]: [Residence] Enabling Residence v4.8.4.4
+[21:43:47] [Server thread/INFO] []: [Residence] Found Vault using permissions plugin:GroupManager
+[21:43:47] [Server thread/INFO] []: [Residence] Scanning for economy systems...
+[21:43:47] [Server thread/INFO] []: [Residence] Found Vault using economy system: Essentials Economy
+[21:43:47] [Server thread/INFO] []: [Residence] Loading save data for world world...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded world data. (3 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Loading save data for world DIM-1...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded DIM-1 data. (1 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Loading save data for world DIM1...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded DIM1 data. (0 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Loading world data into memory...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded world data into memory. (1 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Loading DIM-1 data into memory...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded DIM-1 data into memory. (0 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Loading DIM1 data into memory...
+[21:43:47] [Server thread/INFO] []: [Residence] Loaded DIM1 data into memory. (0 ms)
+[21:43:47] [Server thread/INFO] []: [Residence] Found WorldEdit
+[21:43:48] [Server thread/INFO] []: [Residence] PlaceholderAPI hooked.
+[21:43:48] [Server thread/INFO] []: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[21:43:48] [Server thread/INFO] []: [Residence] Enabled! Version 4.8.4.4 by Zrips
+[21:43:48] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Enabling AuthMe v5.4.0-b1877
+[21:43:49] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] SQLite Setup finished
+[21:43:49] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Hooked into Vault!
+[21:43:50] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Hooked successfully into Essentials
+[21:43:50] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Essentials spawn file not found: 'E:\MC\^桌面\CatServer-master\plugins\Essentials\spawn.yml'
+[21:43:50] [Thread-13/WARN] [fr.xephi.authme.AuthMe]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+[21:43:50] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Development builds are available on our jenkins, thanks to f14stelt.
+[21:43:50] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[21:43:50] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] AuthMe 5.4.0 build n.1877 correctly enabled!
+[21:43:50] [Server thread/INFO] [me.crafter.mc.lockettepro.LockettePro]: [LockettePro] Enabling LockettePro v2.9.0
+[21:43:50] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[21:43:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (15.735s)! For help, type "help" or "?"
+[21:43:50] [Server thread/INFO] [net.minecraft.command.CommandHandler]: Registered command forge with permission node net.minecraftforge.server.command.ForgeCommand
+[21:43:51] [Server thread/INFO] []: GroupManager - INFO - Bukkit Permissions Updated!
+[21:43:51] [Craft Scheduler Thread - 9/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[21:43:51] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
+[21:43:53] [Craft Scheduler Thread - 2/WARN] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Plugin PlaceholderAPI v2.9.2 generated an exception while executing task 6
+java.lang.NullPointerException: null
+	at me.clip.placeholderapi.expansion.cloud.ExpansionCloudManager$1.run(ExpansionCloudManager.java:257) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[CraftTask.class:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [CraftAsyncTask.class:git-Spigot-dcd1643-e60fc34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_181]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[21:43:54] [Craft Scheduler Thread - 9/WARN] [net.milkbowl.vault.Vault]: [Vault] Stable Version: 1.7.1 is out! You are still running version: 1.5.6
+[21:43:54] [Craft Scheduler Thread - 9/WARN] [net.milkbowl.vault.Vault]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[21:44:11] [Server thread/INFO] []: 未知命令。请输入 "/help" 查看帮助。
+[21:44:14] [Server thread/INFO] []: ========= [MiaoBoard] 帮助 By 喵♂呜 =========
+[21:44:14] [Server thread/INFO] []: /miaoboard on  - 打开记分板
+[21:44:14] [Server thread/INFO] []: /miaoboard off  - 关闭记分板
+[21:44:14] [Server thread/INFO] []: /miaoboard reload  - 重新载入配置文件
+[21:44:14] [Server thread/INFO] []: 查看更多的帮助页面 请输入 /miaoboard help 1-1
+[21:44:19] [Server thread/INFO] []: [MiaoBoard] 当前命令仅允许 玩家 执行!
+[21:44:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[21:44:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:44:21] [Server thread/INFO] [me.crafter.mc.lockettepro.LockettePro]: [LockettePro] Disabling LockettePro v2.9.0
+[21:44:21] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Disabling AuthMe v5.4.0-b1877
+[21:44:21] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] Waiting for 0 tasks to finish
+[21:44:21] [Server thread/INFO] [fr.xephi.authme.AuthMe]: [AuthMe] AuthMe 5.4.0-b1877 disabled!
+[21:44:21] [Server thread/INFO] [com.bekvon.bukkit.residence.Residence]: [Residence] Disabling Residence v4.8.4.4
+[21:44:21] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Unregistered placeholder hook for placeholder: residence
+[21:44:22] [Server thread/INFO] []: [Residence] Disabled!
+[21:44:22] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.52
+[21:44:22] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Disabling EssentialsChat v2.15.0.52
+[21:44:22] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect]: [EssentialsProtect] Disabling EssentialsProtect v2.15.0.52
+[21:44:22] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Disabling Essentials v2.15.0.52
+[21:44:22] [Server thread/INFO] [Minecraft]: [Vault][Economy] Essentials Economy unhooked.
+[21:44:22] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Disabling ProtocolLib v4.4.0
+[21:44:22] [Server thread/INFO] [luohuayu.AntiEMP.AntiEMP]: [AntiEMP] Disabling AntiEMP v1.0.0
+[21:44:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Disabling Vault v1.5.6-b49
+[21:44:22] [Server thread/INFO] [pw.yumc.MiaoBoard.MiaoBoard]: [MiaoBoard] Disabling MiaoBoard v2.4.1-git-1565c12dbc913d9376561a47636d109199bbaf20
+[21:44:22] [Server thread/INFO] [cc.bukkitPlugin.banitem.BanItem]: [BanItem] Disabling BanItem v3.2.38
+[21:44:22] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager]: [GroupManager] Disabling GroupManager v2.0.1-b332
+[21:44:22] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[21:44:22] [Server thread/INFO] []: GroupManager - INFO - Scheduled Data Saving is disabled!
+[21:44:22] [Server thread/INFO] []: GroupManager version 2.0.1-b332 is disabled!
+[21:44:22] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Disabling PlaceholderAPI v2.9.2
+[21:44:22] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[21:44:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:44:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:44:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[21:44:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
+[21:44:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
+[21:44:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[21:44:22] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:44:22] [Server thread/INFO] [FML]: Unloading dimension 1
